@@ -1,0 +1,19 @@
+﻿Jamison Meindl
+6/8/2021
+
+Tasks
+Import Solostove data
+Worked with a variety of sizes of datasets, starting with 10,000 lines and ending with 500,000 lines
+Currently, only using order_id and name
+More functionality and differentiation to be built in later
+Using previous framework, basic masket basket analysis program implemented
+Filename: solostoveDataInport.ipynb
+Takes Pandas Dataframe and column names, outputs dataframe of relationships
+Used on Solostove data
+Should generalize to data presented in a similar format and works better with the smaller number of different products as in the Solostove data as opposed to the previous test data
+Issues
+Association rules output from Solostove data
+People generally do not purchase many accessories so most purchases consist of a stove, along with a stand or lid
+Some relationships with accessories (ex: fire starters) but mostly as additional separate purchases
+Purchases often don’t include many items
+Median is 3 items, but often includes shipping insurance meaning it is closer to 2 items

@@ -1,0 +1,19 @@
+﻿Jamison Meindl
+6/7/2021 Notes
+
+Tasks
+Finish work on sample shopping dataset apriori implementation in Python
+Used two packages, mlxtend and apyori
+Some difficulties with runtime, can improve data visualization
+Git
+Learned basic Git functions and connected workspace to Github repo
+Need some more practice with this
+Solostove Data
+Looked into the different features included to develop ideas
+Ideas to look into:
+First use apriori on all products
+Batching products together as one (ex: different sizes of stoves)
+Many possibilities here, need to look at product line more
+Simplifying some products (ex: some are listed with promotions)
+Using customer demographics (ex: name, location, zip code)
+Using price of items in cart
