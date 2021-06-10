@@ -1,0 +1,25 @@
+﻿Jamison Meindl
+6/10/2021
+
+Tasks:
+Format of input and output for Solostove data
+Met with Anup to discuss format and general guidelines
+Created 4 functions in solostoveDataImport.ipynb
+Importing data with sql
+Preprocessing of data
+General market basket analysis
+Postprocessing of data
+Included documentation of inputs and outputs of functions in python file
+Adding database import support through sql within Python
+Connecting to mysql and running sql code to generate Pandas DataFrame
+Final Output
+Final market basket analysis output for solostove in a multiindex Pandas DataFrame representing the most probable combinations for each element / product
+Demographics
+Began looking into the results for different subsets of population
+Ex: people ordering from the Northeast
+Many more things to check and implement
+Issues
+Importing data with sql
+Was difficult to deal with permissions and accessibility but is working now
+Demographics
+Began work on checking genders but have not found a good function for this purpose yet
